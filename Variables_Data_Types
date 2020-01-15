@@ -1,0 +1,40 @@
+print("Hello Python world!")
+
+message = "Hello Python world!"
+print(message)
+
+new_message = "Hello Hamilton, Welcome to Python world!"
+print(new_message)
+
+name = "Eric"
+print("Hello " + name + " would you like to learn some python today")
+
+
+name = "Mathew"
+print(name.lower())
+print(name.upper())
+print(name.title())
+
+#2.5/2.6 
+famous_person = "Albert Einstein"
+quote = ' once said, "A person who never made a mistake never tried anything new."'
+message = famous_person + quote
+print(message)
+
+#2.7
+name = ' chinwendu '
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
+
+#2.8
+print(5 + 3)
+print(10 - 2)
+print(4  * 2)
+print(16 // 2)
+
+#2.9
+favourite_number = 16
+message = "My favourite number is"
+print(message + " " + str(favourite_number))

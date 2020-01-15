@@ -1,0 +1,107 @@
+# A list is a collection of ordered items. Lists are mutable
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+
+
+print(bicycles[0].title())
+
+
+message = "My first bicycle was a " + bicycles[0].title() + "."
+print(message)
+
+friends = ["chidi", "kingsley", "micheal", "chijo"]
+message = "One of my friends is"
+print(message + " " + friends[0] + ".")
+print(message + " " + friends[1] + ".")
+print(message + " " + friends[2] + ".")
+print(message + " " + friends[3] + ".")
+
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+#Modify elements in a list
+# motorcycles[0] = "ducati"
+# print(motorcycles)
+
+#Add elements to a list
+motorcycles.append('ducati')
+print(motorcycles)
+
+#Build a list dynamically
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+
+#del motorcycles[0]
+#print(motorcycles)
+
+popped_motorcycles = motorcycles.pop()
+print(popped_motorcycles)
+
+#popping from any position in the list
+popped_motorcycles = motorcycles.pop(1)
+print(popped_motorcycles)
+
+#motorcycles.remove('ducati')
+
+
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("\nA " + too_expensive.title() + " is too expensive for me")
+
+
+invitees = ['James', 'John', 'Peter']
+message = ' I would like to invite you for a dinner'
+print('Dear ' + invitees[0] + message)
+print('Dear ' + invitees[1] + message)
+print('Dear ' + invitees[2] + message)
+print(invitees[1], "can\'t make it.")
+invitees[1] = 'Billy'
+print('Dear ' + invitees[0] + message)
+print('Dear ' + invitees[1] + message)
+print('Dear ' + invitees[2] + message)
+print('We have found a bigger dinner table')
+
+invitees.insert(0, 'Sven')
+invitees.insert(2, 'Fred')
+invitees.append('Chieme')
+print('Dear ' + invitees[0] + message)
+print('Dear ' + invitees[1] + message)
+print('Dear ' + invitees[2] + message)
+print('Dear ' + invitees[3] + message)
+
+#3.7
+#Shrinking Guest List.
+print(invitees)
+print("We can only invite two people for dinner")
+removed = invitees.pop()
+message = 'we are sorry we cannot invite you for dinner'
+removed = invitees.pop()
+print('Dear ' + removed + ' ' + message)
+removed = invitees.pop()
+print('Dear ' + removed + ' ' + message)
+removed = invitees.pop()
+print('Dear ' + removed + ',' + ' ' + message)
+print(invitees)
+message = 'you are still invited'
+print('Dear ' + invitees[0] + ',' + ' ' + message)
+print('Dear ' + invitees[1] + ',' + ' ' + message)
+
+del invitees[0]
+del invitees[0]
+print(invitees)
+
+#Organizing a list
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+
+
+
+
+
