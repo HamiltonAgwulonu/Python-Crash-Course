@@ -1,5 +1,5 @@
 #ex(1)
-#Program to print palindromic numbers 1 and 10000
+# Program to print palindromic numbers 1 and 10000
 # for i in range(1, 10001):
 # 	s = str(i)
 # 	if s == s[::-1]:
@@ -58,9 +58,8 @@
 # print("The tip is {:.2f}".format(a))
 
 
-bill = 23.60
-tip = 23.60 *.25
-print("Tip: ${:.2f}, Total: ${:.2f}".format(tip, bill+tip))
-print("I am testing github on sublime")
+# bill = 23.60
+# tip = 23.60 *.25
+# print("Tip: ${:.2f}, Total: ${:.2f}".format(tip, bill+tip))
 
 
